@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>symantic elements</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0 ;
+        }
+        body{
+            height: 100vh;
+        }
+        header,
+        footer{
+            margin: 5px 0px;
+            border: 2px solid red;
+            height: 10%;
+
+        }
+        main{
+            height: 60%;
+            border: 2px solid red ;
+            display: grid;
+            grid-template-columns: 20% 80%;
+            gap: 2px;
+            padding: 5px;
+        }
+        aside,section{
+            border: 2px solid green;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <span>Header</span>
+    </header>
+    <main>
+        
+        <aside>
+            <span>Main</span>
+            <sp>Aside</sp>
+        </aside>
+        <section>
+            <span>Main section</span>
+        </section>
+    </main>
+    <footer>
+    <span>Footer</span>
+    </footer>
+    
+</body>
+</html>
